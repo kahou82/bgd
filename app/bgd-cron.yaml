@@ -13,7 +13,7 @@ spec:
       template:
         metadata:
           annotations:
-            abcd: "defg"
+            abc: "def"
         spec:
           containers:
           - name: hello

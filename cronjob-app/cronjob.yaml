@@ -8,12 +8,12 @@ spec:
   jobTemplate:
     metadata:
       annotations:
-        abc: "def"
+        argocd.argoproj.io/ignore-resources-tracking: "true"
     spec:
       template:
         metadata:
           annotations:
-            abc: "def"
+            argocd.argoproj.io/ignore-resources-tracking: "true"
         spec:
           containers:
           - name: hello

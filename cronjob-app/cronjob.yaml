@@ -8,12 +8,12 @@ spec:
   jobTemplate:
     metadata:
       annotations:
-        argocd.argoproj.io/apply-resources-update: "true"
+        argocd.argoproj.io/apply-resources-update: "false"
     spec:
       template:
         metadata:
           annotations:
-            argocd.argoproj.io/apply-resources-update: "true"
+            argocd.argoproj.io/apply-resources-update: "false"
         spec:
           containers:
           - name: hello
